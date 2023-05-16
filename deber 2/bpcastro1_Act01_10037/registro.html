@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post" name="FormRegistro">
+        <div>
+
+            <fieldset>
+                <legend>DIRECCION DE ENVIO</legend>
+                <label for="principal">Calle Principal</label><br>
+                <input type="text"><br><br>
+                <label for="transversal">Transversal</label><br>
+                <input type="text">
+                <br><br><input type="checkbox">
+                <label for="entregap">Entrega al propietario.</label>
+
+                <br> <input type="checkbox">
+                <label for="entregat">Entrega a un tercero.</label><br><br>
+
+                <label for="canton">Cantones:</label>
+                <select name="canton" id="canton">
+                    <option value="quito">Quito</option>
+                    <option value="guayaquil">Guayaquil</option>
+                    <option value="cuenca">Cuenca</option>
+                    <option value="ambato">Ambato</option>
+                    <option value="loja">Loja</option>
+                </select><br><br>
+                <button>ENVIAR DATOS</button>
+            </fieldset>
+
+        </div>
+
+        <div>
+
+            <fieldset>
+                <legend>INFORMACION CONFIDENCIAL</legend>
+                <label for="codigo">Codigo Postal:</label>
+                <input type="text">
+                <br><br><label for="referencia">Referencia de la Direccion:</label><br>
+                <textarea name="referencia" id="referencia" cols="40" rows="5"></textarea>
+                <br> <br> <button>Guardar</button>
+            </fieldset>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

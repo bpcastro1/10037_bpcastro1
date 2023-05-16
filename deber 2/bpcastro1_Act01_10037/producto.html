@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ 
+    <form action="" method="post" name="FormProducto">
+
+      <fieldset>
+        <legend>Datos Basicos</legend>
+        <label for="nombrep">Nombre del Producto:</label>
+        <input type="text">
+        <br><br><label for="descripcion">Descripcion:</label><br>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="5"></textarea><br><br>
+        <label for="foto">Foto:</label><br>
+        <input type="file"><br><br>
+        <input type="checkbox">
+        <label for="info">Añadir informacion confidencial</label>
+     
+    </fieldset>
+    <fieldset><legend>Datos Economicos</legend>
+        <label for="precio">Precio:</label>
+        
+        <input type="number">$ &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="impuestos">Impuestos:</label>
+<select id="impuestos">
+  <option value="1">1%</option>
+  <option value="2">2%</option>
+  <option value="3">3%</option>
+  <option value="4">4%</option>
+  <option value="5">5%</option>
+  <option value="6">6%</option>
+  <option value="7">7%</option>
+  <option value="8">8%</option>
+  <option value="9">9%</option>
+  <option value="10">10%</option>
+</select>
+<br><br>
+<label>Promoción:</label>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="n" id="RadioGroup1_0">
+      Ninguno</label><br></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="tp" id="RadioGroup1_1">
+      Transporte gratuito</label><br></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="d5" id="RadioGroup1_2">
+      Descuento 5%</label></td>
+  </tr>
+</table>
+
+
+
+
+        </select>
+    </fieldset>
+    <br>
+    <button>Guardar Cambios</button>
+    <button>Borrar los datos introducidos</button>
+
+    </form>
+</body>
+
+</html>
